@@ -9,7 +9,7 @@ namespace Ecommerce_G02.Shared.DTOs.BasketsDtos
 {
     public class BasketItemDto
     {
-        public string Id { get; set; } = null!;
+        public int Id { get; set; } = null!;
         public string Name { get; set; } = null!;
         public string PictureUrl { get; set; } = null!;
         [Range(1,double.MaxValue)]
